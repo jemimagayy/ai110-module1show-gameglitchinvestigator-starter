@@ -8,6 +8,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
+- When I first ran the game, the layout looked fine. I was able to type in my input and it showed hint with no issue, but as I kept changing my input to be lower as suggested by the hint, I noticed even after typing in 1 as my input the hint still told me to go lower. When I unchecked the "Show Hint" box, the number of attempts left never changed after submitting my guesses.
+
 ---
 
 ## 2. How did you use AI as a teammate?

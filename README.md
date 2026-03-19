@@ -25,13 +25,13 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [ ] Describe the game's purpose: The purpose of this game is for the user to guess a number between 1 and 100. They are allowed a certain number of hints to aid in finding the selected number. 
+- [ ] Detail which bugs you found: I found issues with the hint feature where it shows the hints backwards. "Go HIGHER" when guess is too high, "Go LOWER" when too low. The messages are swapped. I also found secret number changes on every submit. Lastly, Attempts counter starts at 1 instead of 0. 
+- [ ] Explain what fixes you applied: "Go HIGHER!" was shown when the guess was too high, and "Go LOWER!" when too low. Now they correctly point the player in the right direction. The buggy code was converting secret to a string on even-numbered attempts, so check_guess would compare int vs str.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] [![alt text](image.png)]
 
 ## 🚀 Stretch Features
 
