@@ -31,7 +31,7 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📸 Demo
 
-- [ ] [![alt text](image.png)]
+- [x] ![Demo](deployedappgame.gif)
 
 ## 🚀 Stretch Features
 
